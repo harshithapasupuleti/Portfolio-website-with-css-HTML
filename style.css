@@ -1,0 +1,315 @@
+*{
+    background-color: black;
+    color: cornsilk;
+}
+/*nav bar*/
+#nav{
+    font-family: Montserrat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+span{
+    color: red;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+li{
+    display: inline;
+}
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+#nav .icon a{
+    font-size: 35px;
+    font-weight: 600;
+  }
+.icon{
+    margin-top: 20px;
+    padding: 0 80px;
+  }
+  .menu a{
+      color: grey;
+  }
+  .menu i{
+      color: grey;
+  }
+  .menu .git i{
+      margin-right: 20px;
+  }
+  #nav .menu a:hover, .menu i:hover{
+      color:red;
+  }
+  /*home*/
+  #home #content, #contact{
+      padding: 0 80px;
+  }
+  #content{
+      box-sizing: border-box;
+  }
+  #content {
+    width: 70%;
+    float: left;
+    margin-top: 150px;
+  }
+  
+  #image1 {
+    width: 30%;
+    float: left;
+    padding: 100px 0px 20px 0px;
+    opacity: 75%;
+  }
+  #content #hello{
+      font-size: 25px;
+      font-weight: normal;
+  }
+  #content #name{
+      font-weight: bolder;
+      color: grey;
+      font-size: 59px;
+  }
+  #content #and{
+      font-weight: lighter;
+      font-size: 30px;
+  }
+  #contact a , #resume a,#show a{
+      font-weight: normal;
+      font-size: 25px;
+      border: 1px solid red;
+      padding: 10px;
+      background-color: red;
+      border-radius: 500px;
+      margin-top: 20px;
+  }
+  /*about*/
+    #about #heading{
+     margin-top: 700px ;
+     text-align: center;
+     font-size: 40px;
+     margin-bottom: 100px;
+   }
+   #heading h1{
+       color: gray;
+   }
+   .container {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: 20px;
+  }
+   #image2 img {
+    max-width: 100%;
+  } 
+  #image2 {
+    flex-basis: 90%;
+    padding-left: 30px;
+  }
+  #about_content {
+    font-size: 35px;
+    padding-left: 20px;
+    margin-left: 100px;
+  }
+  #resume{
+      margin-left: 150px;
+      margin-top: 50px;
+  }
+  /*MY SKILLS*/
+  #skills #my{
+      text-align: center;
+      margin-top: 100px;
+      font-size: 40px;
+  }
+  #my h1{
+    color: gray;
+  }
+  /* c logo */
+  #skills img , #skills i,#skills svg{
+      opacity: 50%;
+      margin-left: 100px;
+  }
+  #skills #cpp{
+      margin-left: 400px;
+      margin-top: -11%;
+
+  }
+  #python img{
+      width: 35%;
+  }
+  #skills #python{
+      margin-left: 900px;
+      margin-top: -11%;
+  }
+  #skills i{
+      font-size: 200px;
+  }
+  #html{
+      margin-top: 40px;
+  }
+  #css{
+      margin-left: 400px;
+      margin-top: -12%;
+
+  }
+  #bootstrap{
+      margin-left: 900px;
+      margin-top: -12%;
+  }
+  /* projects */
+  #projects h1{
+      margin-top: 100px;
+      text-align: center;
+      font-size: 56px;
+      color: gray;
+
+  }
+  #name h3{
+      margin-top: 100px;
+      margin-left: 85px;
+      font-weight: lighter;
+      font-size: 25px;
+  }
+  #projects img{
+      margin-top: 50px;
+      margin-left: 50px;
+      width: 20%;
+  }
+  #show a{
+      margin-left: 100px;
+      font-size: 20px;
+  }
+  #show{
+      margin-top: 50px;
+  }
+  #contact_me h1{
+      text-align: center;
+      font-size: 56px;
+      color: gray;
+      margin-top: 250px;
+  }
+  #contact_me #mail{
+      margin-top: 150px;
+      margin-left: 500px;
+  }
+#contact_me  i{
+    font-size: 50px;
+}
+#mail h3{
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 100px;
+    margin-top: -3%;
+}
+#phone{
+    margin-top: 50px;
+    margin-left: 500px;
+}
+#phone h3{
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 100px;
+    margin-top: -3%;
+    margin-bottom: 200px;
+}
+#footer{
+    background-color: cornsilk;
+    text-align: center;
+}
+#footer p{
+    padding-top: 10px;
+    background-color: cornsilk;
+    color: black;
+    font-weight: normal;
+
+}
+#foot{
+    background-color: cornsilk;
+    color: black;
+}
+#footer i{
+    background-color: cornsilk;
+    padding: 4px;
+    color: black;
+}
+#contact a:hover , #resume a:hover,#show a:hover{
+    background-color: white;
+    color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*  making responsive(media query)  */
+@media only screen and (max-width: 1885px){
+    
+    
+    #python{
+        width: 30%;
+    }
+    #c,#cpp,#python{
+        padding-top: 100px;
+    }
+    #python{
+        padding-top: 10px;
+    }
+    #cpp{
+        padding-top: 25px;
+    }
+    #css{
+        transform: translateY(-10%);
+    }
+    #html i{
+        margin-top: 100px;
+
+    }
+    #bootstrap{
+        transform: translateY(-20%);
+    }
+
+}
+@media only screen and (max-width: 1050px){
+    #image1{
+        width: 5%;
+    }
+    #home{
+        margin-left: 0px;
+    }
+    h1{
+        font-size: 45px;
+    }
+    #python{
+        width: 50%;
+        padding-top: 100px;
+        transform: translateX(-900px);
+    }
+    #c{
+        width: 60%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #cpp{
+        transform: translateY(-150px);
+    }
+    #bootstrap{
+        height: 150;
+        width: 150;
+        transform: translateY(-370px);
+        margin-left: 400px;
+    }
+    #html{
+        padding-top: 50px;
+    }
+    #css i{
+        font-size: 150px;
+    }
+    #contact_me #mail,#contact_me #phone{
+        margin-left: 200px;
+
+    }
+}
